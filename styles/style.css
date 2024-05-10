@@ -1,0 +1,72 @@
+/* Conteúdo Principal */
+main {
+    /* Temos duas div: aside e article em comluna, vamos deixar um ao lado do outro */
+    display: flex;
+    flex-direction: row;
+    /* Adicionar espaçamento acima */
+    margin-top: 50px;
+}
+
+/* Titulo h2 */
+h2 {
+    /* Tamanho da fonte do titulo: Inscrevas se agora na Newlatter */
+    font-size: 50px;
+    /* Diminuir espaçamento entre os titulos */
+    line-height: 10px;
+    /* fonte importada */
+    font-family: poppinsmedium;
+}
+
+span {
+    /* Alterar cor de texto especifico */
+    color: rgb(132, 14, 201);
+}
+
+p {
+    /* Adicionar espaçamento do entrelinhas do paragrafo */
+    line-height: 20px;
+    /* Largura máxima do paragrafo */
+    max-width: 500px;
+    /* Utilizar uma fonte mais fina */
+    font-family: poppinslight;
+}
+
+/* Imagem */
+img {
+    /* Largura da Imagem */
+    width: 580px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    /*Deixar formulário em coluna */
+    flex-direction: column;
+    /* Largura */
+    width: 70%;
+}
+
+/* submit do formulário -> Todas as alterações vão servir apenas para o submit*/
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    /* Força da fonte (intensidade */
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+/* Input */
+input {
+    margin-top: 20px;
+    /* Altura do formulario -> necessita do padding também */
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    /* Remover borda */
+    border: none;
+}

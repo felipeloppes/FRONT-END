@@ -1,0 +1,36 @@
+/* Quando estiver nessa proporção aplicar essa configuração */
+@media screen and (max-width: 760px) {
+
+    header{
+        /* Deixar cabeçalho em coluna */
+        flex-direction: column;
+    }
+    main{
+        /* Deixar parte principal do site em coluna */
+        flex-direction: column;
+    }
+    /* Diminuir fonte  */
+    h2{
+        font-size: 38px;
+    }
+    /* Colocar formulario no meio */
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    /* Colocar input no meio */
+    input{
+        /* alinhar ele mesmo ao centro */
+        align-self: center;
+    }
+
+    img{
+        /* Foto desaparecer */
+        display: none;
+    }
+
+    ul{
+        /* Alinha toda a div ao centro */
+        text-align: center;
+    }
+}

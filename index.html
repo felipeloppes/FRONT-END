@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/media.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- Vou focar no uso de tags semanticas - Evitando uso de divs 
+       - Usando tag <header> para representar o cabeçalho  -->
+    <header>
+            <!-- Cabeçalho superior Left   -->
+        <div id="title">
+            <h1>Marketing</h1>
+            <h1>Criativo</h1>
+        </div>
+
+    <!-- AppBar   -->
+        <ul>
+           <a href="#"> <li>Inicio</li></a>
+           <a href="#"> <li>Servicos</li></a>
+           <a href="#"> <li>Sobre</li></a>
+           <a href="#"> <li>Contato</li></a>
+           <!-- Identificando e transformando link em um botão -->
+           <a href="#" id="inscreva-se-btn"> <li>Já tem uma conta</li></a>
+        </ul>
+    </header>
+
+        <!-- Parte principal do site   -->
+        <main>
+            <!-- Vou usar a tag semantica aside para definir uma página que tenha um lado   -->
+            <aside>
+                <!-- Utilizo a tag span para agrupar elementos de texto em linha ou para aplicar estilos específicos a partes do texto. -->
+                <h2><span>Inscreva-se agora</h2></span>
+                <h2>na Newsletter</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                </p>
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Enviar >">
+                </form>
+            </aside>
+
+            <!--Vou usar a div <article> de forma semantica para locais onde terão imagem -->
+                <article>
+                    <img src="./components/img/77d0a7c454e658833800528e748edbe9.png" alt="mulher-roxa">
+                </article>
+        </main>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Definindo conteúdo principal */
+body {
+    /* Cor de fundo da tela */
+    background-color: rgb(34, 34, 34);
+    /* Cor da letra  */
+    color: white;
+    font-family: poppinsregular;
+    /* Esse max-width vai servir para que quando tiver mais elementos na tela ele nao se espalhar quando o monitor for grande */
+    max-width: 1200px;
+    /* Para posicionar a imagem no centro da tela */
+    margin: 0 auto;
+    /* Adicionar espaçamento interno para o conteudo dentro do body ficar mais afunilado */
+    padding: 15px;
+}
+
+/* Nosso cabeçalho */
+header {
+    /* Método para posicionar elementos na tela -> Cabeçalho é um flexbox*/
+    display: flex;
+    /* Transforma direção do cabeçalho em uma limha */
+    flex-direction: row;
+    /* Adiciona espaço entre "Marketing e a "ul"  */
+    justify-content: space-between;
+    /* Alinha itens do cabeçalho */
+    align-items: center;
+}
+
+/* Div title */
+#title {
+    /* Para ficar uma coluna fixa  entre Marketing e Criativo*/
+    flex-direction: column;
+    /* Diminuir espaçamento entre Marketing e Criativo */
+    line-height: 10px;
+}
+
+/* Lista */
+li {
+    /* Deixer lista em linha */
+    display: inline-block;
+    /* Adicionar espaçamento entre cada linha */
+    margin: 20px;
+}
+
+/* Links -> ancora */
+a {
+    color: white;
+}
+
+/* Mudar de cor o texto do link ao passar mouse */
+a:hover {
+    color: rgb(132, 14, 201);
+    /* Adicionar transição em todo o "a" */
+    transition: 0.3s all;
+}
+
+/* ID */
+#inscreva-se-btn {
+    /* Adicionando espessura e borda do botao */
+    border: 2px solid rgb(132, 14, 201);
+    /* Criando margem interna ao botão */
+    padding: 1opx;
+    /* Arredondando botão */
+    border-radius: 15px;
+}
+
+/* Alterar cor do background ao passar pelo botão */
+#inscreva-se-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white
+}
+
+/* Titulo h1 */
+h1 {
+    /* Deixar fonte mais fina */
+    font-weight: 200;
+}
