@@ -74,3 +74,21 @@ h1 {
     /* Deixar fonte mais fina */
     font-weight: 200;
 }
+
+/* Estilos para o elemento footer */
+footer {
+    /* Adicionar um espaçamento entre o elemento e as bordas */
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Define o espaçamento entre os elementos filhos */
+}
+
+/* Estilos para os elementos filhos diretos do footer */
+footer > div {
+    /* Estilos para os elementos div dentro do footer */
+    display: flex; /* Define que os elementos serão exibidos em linha */
+    justify-content: center; /* Alinha os elementos horizontalmente no centro */
+    gap: 2rem; /* Define o espaçamento entre os elementos filhos */
+    flex-wrap: wrap; /* Define que os elementos podem quebrar linha conforme necessário */
+}
